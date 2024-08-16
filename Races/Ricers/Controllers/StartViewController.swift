@@ -1,10 +1,3 @@
-//
-//  StartViewController.swift
-//  Ricers
-//
-//  Created by Артем Антонов on 15.08.2024.
-//
-
 import UIKit
 
 class StartViewController: UIViewController {
@@ -19,15 +12,13 @@ class StartViewController: UIViewController {
 
     @IBAction func startButtonPressed(_ sender: UIButton) {
         let controller = self.storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+            controller.mainCar.image = UIImage(named: UserDefaults.standard.value(forKey: "car") as! String)
         self.navigationController?.pushViewController(controller, animated: true)
     }
     
     @IBAction func settingsButtonPressed(_ sender: UIButton) {
+        let controller = self.storyboard?.instantiateViewController(withIdentifier: "SettingsViewController") as! SettingsViewController
+        self.navigationController?.pushViewController(controller, animated: true)
     }
     
-    
-    // MARK: - Navigation
-    
-    
-
 }

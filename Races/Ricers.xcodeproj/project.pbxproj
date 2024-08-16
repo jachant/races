@@ -15,6 +15,8 @@
 		5CD119C02C6E18FF00C5FF14 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD119BF2C6E18FF00C5FF14 /* StartViewController.swift */; };
 		5CD119C42C6E1D3900C5FF14 /* [SuperSliv.biz] GreatVibes-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD119C32C6E1D3900C5FF14 /* [SuperSliv.biz] GreatVibes-Regular.otf */; };
 		5CD119C72C6E368E00C5FF14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CD119C62C6E368E00C5FF14 /* Main.storyboard */; };
+		5CD119C92C6F8EA000C5FF14 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD119C82C6F8EA000C5FF14 /* Manager.swift */; };
+		5CD119CB2C6F8ECA00C5FF14 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD119CA2C6F8ECA00C5FF14 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		5CD119BF2C6E18FF00C5FF14 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		5CD119C32C6E1D3900C5FF14 /* [SuperSliv.biz] GreatVibes-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "[SuperSliv.biz] GreatVibes-Regular.otf"; sourceTree = "<group>"; };
 		5CD119C62C6E368E00C5FF14 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5CD119C82C6F8EA000C5FF14 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		5CD119CA2C6F8ECA00C5FF14 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 				5CD119C22C6E1CC400C5FF14 /* Font */,
 				5CD119AB2C6E186A00C5FF14 /* AppDelegate.swift */,
 				5CD119AD2C6E186A00C5FF14 /* SceneDelegate.swift */,
+				5CD119C82C6F8EA000C5FF14 /* Manager.swift */,
 				5CD119C12C6E193600C5FF14 /* Controllers */,
 				5CD119B42C6E186C00C5FF14 /* Assets.xcassets */,
 				5CD119B62C6E186C00C5FF14 /* LaunchScreen.storyboard */,
@@ -77,6 +82,7 @@
 			children = (
 				5CD119AF2C6E186A00C5FF14 /* ViewController.swift */,
 				5CD119BF2C6E18FF00C5FF14 /* StartViewController.swift */,
+				5CD119CA2C6F8ECA00C5FF14 /* SettingsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -173,6 +179,8 @@
 				5CD119C02C6E18FF00C5FF14 /* StartViewController.swift in Sources */,
 				5CD119AC2C6E186A00C5FF14 /* AppDelegate.swift in Sources */,
 				5CD119AE2C6E186A00C5FF14 /* SceneDelegate.swift in Sources */,
+				5CD119C92C6F8EA000C5FF14 /* Manager.swift in Sources */,
+				5CD119CB2C6F8ECA00C5FF14 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

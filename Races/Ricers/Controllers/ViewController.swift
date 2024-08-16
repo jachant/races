@@ -67,9 +67,10 @@ class ViewController: UIViewController {
     private func createThings(thing: Things) {
         switch thing {
         case .mainCar:
-            self.mainCar.image = UIImage(named: "mainCar")
+            
+
             self.mainCar.frame = CGRect(x: 0, y: self.wayView.frame.height - self.controllerView.frame.height - self.wayView.frame.height/5, width: self.wayView.frame.width/2, height: self.wayView.frame.height/6)
-            self.mainCar.contentMode = .scaleAspectFit
+            self.mainCar.contentMode = .scaleAspectFill
             self.wayView.addSubview(self.mainCar)
         case .trees:
             for i in 1...self.countTrees {
